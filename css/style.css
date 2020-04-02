@@ -14,14 +14,22 @@ button {
   font-size: 0.8em;
   font-weight: 500;
   padding: 5px 0;
-  margin: 0 auto 18px auto;
+  margin: 0 15px 20px 15px;
 }
 button:hover {
   background: #eeeeee;
   border: 1px solid grey;
 }
-h3 {
+h1 {
   font-weight: bold;
+  color: #595E60;
+  font-size: x-large;
+  margin-bottom: .5vh;
+}
+h3 {
+  font-weight: thin;
+  color: #858786;
+  font-size: small;
   margin-bottom: 0.7em;
 }
 p {
@@ -34,6 +42,7 @@ span {
   position: relative;
   top: 46%;
   color: white;
+  font-size: x-large;
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
@@ -47,7 +56,7 @@ span {
   margin: 0 15px 20px 15px;
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 30vh;
   position: relative;
 }
 #box1 {

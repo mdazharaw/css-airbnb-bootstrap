@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>css-airbnb mockup</title>
 </head>
@@ -12,9 +14,51 @@
 <body>
   <div class="container">
     <!-- Write your code here -->
-    <div class="row">
-      <div class="col"></div>
+    <div class="row justify-content-center"></div>
+    <h1 class="text-center">Meet Guidebooks</h1>
+    <h3 class="text-center">Discover hundreds of local spots recommended by Airbnb hosts</h2>
+      <div class="row justify-content-lg-center">
+        <div class="col-lg-3">
+          <div id="box1" class="box" onclick="mapWindow(this.id)"><span>San Francisco</span></div>
+        </div>
+          <div class="col-lg-3">
+          <div id="box2" class="box" onclick="mapWindow(this.id)"><span>New York</span></div>
+        </div>
+          <div class="col-lg-3">
+          <div id="box3" class="box" onclick="mapWindow(this.id)"><span>London</span></div>
+        </div>
+        </div>
+        <div class="row justify-content-lg-center">
+        <div class="col-lg-3">
+      <button id="seeGuideBtn" onclick="featureUnavailable()">See All Guidebooks</button>
     </div>
+      </div>
+      <h1 class="text-center">Just for the weekend</h1>
+      <h3 class="text-center">Discover new, inpiring places close to home</h2>
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-3">
+            <div id="box4" class="box" onclick="mapWindow(this.id)"><span>Napa</span></div>
+            </div>
+            <div class="col-lg-3">
+            <div id="box5" class="box" onclick="mapWindow(this.id)"><span>Sonoma</span></div>
+          </div>
+          <div class="col-lg-3">
+            <div id="box6" class="box" onclick="mapWindow(this.id)"><span>San Francisco</span></div>
+          </div>
+          </div>
+          <div class="row justify-content-lg-center">
+          <div class="col-lg-3">
+          <button id="seeDestBtn" onclick="featureUnavailable()">See All Destinations</button>
+        </div>
+        </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col"></div>
+        </div>
   </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
